@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" type = "text/css" href = "mystyle.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <style>
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #FFC107;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 50px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #111;
+  }
+
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  </style>
+  <body id="black">
+    <h2 id = "MOONf" style="text-align:center;"> Moon Friend </h2>
+    <p class="ridge"></p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="homefile.html">Moon River</a></li>
+      <li><a href="NEH.html">Never Ever Human</a></li>
+      <li><a href="moonfriend.html">Moon friend</a></li>
+      <li><a href="WLGYL.html">When Life Gives you lemons</a></li>
+      <li><a href="intoodeep.html">In Too Deep</a></li>
+      <li><a href="CJ.html">Cosmic Jewels</a></li>
+      <li><a href="gify.html">Gifs</a></li>
+    </ul>
+    <p class="ridge"></p>
+
+    <div class="w3-content w3-section" style="max-width:500px">
+      <iframe src="https://giphy.com/embed/3ohc11u1r1Sd7cLTuU" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/no-space-3ohc11u1r1Sd7cLTuU"></a></p>
+      <iframe src="https://giphy.com/embed/G3lxvBMhGu53y" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/satisfying-G3lxvBMhGu53y"></a></p>
+      <iframe src="https://giphy.com/embed/3oEduOLxLh4ZKKi1pu" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/psychedelics-hallucination-hallucinogen-3oEduOLxLh4ZKKi1pu"></a></p>
+      <iframe src="https://giphy.com/embed/l0MYHoGpt9AfXEbYY" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/summerbreak-good-color-times-l0MYHoGpt9AfXEbYY"></a></p>
+      <iframe src="https://giphy.com/embed/l2QZSjo0lwEMC0GVG" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dance-loop-tgif-l2QZSjo0lwEMC0GVG"></a></p>
+    </div>
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+  </body>
+</html>
