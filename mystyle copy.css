@@ -1,0 +1,89 @@
+@font-face{
+  font-family: 'KR Lava Lamp';
+  src: url('KR Lava Lamp.ttf');
+}
+@font-face{
+  font-family: 'MAGIMTOS';
+  src: url('MAGIMTOS.ttf');
+}
+
+@font-face{
+  font-family: 'Hippie Movement';
+  src: url('Hippie Movement.ttf');
+}
+
+@font-face{
+  font-family: 'neon2';
+  src: url('neon2.ttf');
+}
+
+h1{
+  color:#FFC107;
+  font-size: 100px;
+  font-family: 'Shrikhand', cursive;
+}
+h2{
+  color:#000000;
+  font-size: 75px;
+
+}
+h3{
+  color:#F89500;
+  font-size: 50px;
+}
+
+
+#yellow {
+background-color:#FFBC08;
+}
+
+#orange {
+background-color:#E89500;
+}
+#orangep {
+color:#E89500;
+
+}
+#Red {
+background-color:#FF4721;
+}
+#mr{
+  font-family: 'MAGIMTOS','Knewave', cursive;
+}
+#cj{
+  font-family: 'Hippie Movement','Knewave', cursive;
+}
+#inTooDeep{
+  font-family: 'Audiowide', cursive;
+}
+#neh{
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+#MOONf{
+  font-family: 'neon2', cursive;
+}
+#WLGYL{
+  font-family: 'Kumar One', cursive;
+}
+#homepage{
+  color:white;
+  font-size: 50px;
+}
+#yellowp {
+color:#FFBC08;
+
+}
+article {
+    float: right;
+    padding: 20px;
+    width: 45%;
+    background-color: #000000;
+    height: 650px; /* only for demonstration, should be removed */
+
+}
+
+body{
+  background-color: #000000;
+}
+
+p.ridge {border-style: ridge;}
